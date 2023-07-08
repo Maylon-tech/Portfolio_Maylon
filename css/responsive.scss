@@ -1,0 +1,30 @@
+@import 'styles.scss';
+
+
+@media (max-width: 768px) {
+    .navbar {
+        background-color: red($color: #000000);
+    }
+
+    .container-content {
+
+        .content-main {
+    
+            .content-center {
+                
+                h1 {
+                    color: blue;
+                }
+            }
+    
+        }
+
+    }
+}
+
+
+@media (max-width: 300px) {
+    .content-center h1 {
+        color: blue;
+    }
+}
